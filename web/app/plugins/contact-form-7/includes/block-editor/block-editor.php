@@ -33,10 +33,10 @@ function wpcf7_init_block_editor_assets() {
 		$assets['version']
 	);
 
-	wp_set_script_translations(
-		'contact-form-7-block-editor',
-		'contact-form-7'
-	);
+	// wp_set_script_translations(
+	// 	'contact-form-7-block-editor',
+	// 	'contact-form-7'
+	// );
 
 	register_block_type(
 		'contact-form-7/contact-form-selector',
